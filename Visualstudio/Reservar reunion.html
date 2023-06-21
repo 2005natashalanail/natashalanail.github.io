@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+            <title>
+                Reservar Reunion
+            </title>
+            <link rel="stylesheet" href="estilo.css">
+            <meta charset="utf-8">
+    
+            <body>
+                <h1 class="Nosotros">Pedir Muestras</h1>
+            <header> 
+                <input type="checkbox" id="check">
+                <label for="check" class="mostrar-menu">
+                  &#8801
+                </label>
+        <nav class="menu">
+          <a href="home.html"> Home</a>
+          <a href="Sobre Nosotros.html"> Sobre Nosotros</a>
+          <a href="Productos.html"> Productos</a>
+          <a href="Reservar reunion.html"> Reservar Reunion</a>
+          <label for="check" class="esconder-menu">
+            &#215
+          </label>
+        </nav>
+        </header>
+
+     <div class="fondo"> 
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300&display=swap');
+            </style>
+            <div class="section">
+                <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Poppins:wght@500&family=Roboto+Slab:wght@200;300&display=swap');
+                  </style>
+                 <div class="menu2"> 
+            <ul>
+                <a href="home.html">Home</a>
+                <a href="Sobre Nosotros.html">Sobre Nosotros</a>
+                <a href="Productos.html">Productos</a>
+                <a href="Reservar reunion.html">Reservar Reunion</a>
+                <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png" alt="imagen1" width="32px">
+                </ul> 
+            </div>
+                
+            <form id="miFormulario" action="form">
+              <h3>Reservar reunión</h3>
+              <input type="text" name="Nombre de la marca" placeholder="Nombre" required>
+              <input type="text" name="Email" placeholder="Email" required>
+              <input type="text" name="Telefono" placeholder="Teléfono" required>
+              <input type="text" name="Dia" placeholder="Día y hora en la que te podemos visitar" required>
+              <textarea name="Como nos conociste" placeholder="Escriba aquí cómo nos conoció" required></textarea>
+              <input type="submit" value="ENVIAR">
+            </form>
+            
+            <script>
+              document.getElementById("miFormulario").addEventListener("submit", function(event) {
+                event.preventDefault(); // Evita el envío del formulario por defecto
+            
+                // Mostrar la alerta
+                alert("Formulario enviado");
+              });
+            </script>
+            
+
+
+
+            </body>
+        </div>
+        <footer>
+          <h4> <a href="https://instagram.com/dloreantextil?igshid=MzRlODBiNWFlZA=="><img src="./imagenes/Instagram-simbolo.png"alt="Dloreantextil" id="instagram" width="30px"> <p style="color:white; font-size: 13px; ">Dloreantextil</h4></a>
+          <h5><img src="./imagenes/WhatsApp.svg.png" alt="texto-alternativo" id="wpp" width="19px"> 1130262005 </h5>
+          <p class="copy">copyrightdloreantextil©</p>
+         </footer>
+         </div>
+
+ </html>
